@@ -20,7 +20,7 @@ function App() {
 
   const fetchAtenciones = async () => {
     try {
-      const response = await fetch('http://localhost:5000/atenciones');
+      const response = await fetch('/api/atenciones');
       const data = await response.json();
       setAtenciones(data.data);
     } catch (error) {
@@ -45,7 +45,7 @@ function App() {
     };
 
     try {
-      const response = await fetch('http://localhost:5000/atenciones', {
+      const response = await fetch('/api/atenciones', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

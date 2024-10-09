@@ -14,7 +14,9 @@
     "sql.js": "^1.11.0",
     "sqlite3": "^5.1.7",
     "web-vitals": "^3.5.0",
-    "xlsx": "^0.18.5"
+    "xlsx": "^0.18.5",
+    "express": "^4.21.0",
+    "cors": "^2.8.5"
   },
   "scripts": {
     "start": "react-app-rewired start",
